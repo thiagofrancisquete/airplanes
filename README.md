@@ -1,5 +1,5 @@
   # airplanes
-  This is a Typescript React project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [nodejs](https://nodejs.org/en/).
+  This is a Typescript React project bootstrapped with [`create-next-app`](https://github.com/facebook/create-react-app) and [nodejs](https://nodejs.org/en/).
 
   ## Getting Started
   
