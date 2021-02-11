@@ -2,7 +2,7 @@
   This is a Typescript React project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [nodejs](https://nodejs.org/en/).
 
   ## Getting Started
-
+  
   Download the project.
   ### Web
   First, enter in the _web_ folder and, install the dependencies and run the development server:
@@ -31,7 +31,7 @@
   - npm install
 
   # than
-  - npm run knex:migrations
+  - npm run knex:migrate
   - npm run knex:seed
   - npm run dev
 
@@ -54,3 +54,4 @@
   - DELETE: `http://localhost:3333/aeronaves/(number)`
   - FIND: `http://localhost:3333/aeronaves/find`
 
+  _Please, follow all the instructions to execute the project. Both servers should run at the same time._
