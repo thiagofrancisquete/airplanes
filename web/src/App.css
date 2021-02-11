@@ -1,0 +1,134 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+  margin: 0px;
+  margin-top: 100px;
+}
+
+.input-padrao {
+  height: 35px;
+  margin-bottom: 5px;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid cadetblue;
+  width: 100%;
+}
+
+.descricao {
+  height: 300px;
+}
+
+select:focus,
+input:focus {
+  outline: none;
+}
+
+.container-tabela {
+  width: 700px;
+  height: 200px;
+}
+
+.tabela {
+  width: 100%;
+}
+
+.tabela,
+tr,
+th,
+td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  margin-top: 25px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.btn-editar,
+.btn-delete {
+  color: white;
+  margin-right: 3px;
+  padding: 3px 6px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.btn-editar {
+  background-color: teal;
+  border: 1px solid teal;
+}
+
+.btn-delete {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.btn-gravar {
+  margin-top: 10px;
+  background-color: dodgerblue;
+  border: transparent;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+}
+
+label {
+  margin-top: 5px;
+}
+
+.btn-big {
+  font-weight: bold;
+  color: white;
+  padding: 7px 14px;
+  border: transparent;
+  cursor: pointer;
+}
+
+.btn-aeronave {
+  background-color: #5fb956;
+  margin-right: 5px;
+}
+
+.btn-big:focus {
+  outline: none;
+}
+
+.btn-cadastro {
+  background-color: orange;
+}
+
+.acoes-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1px;
+  align-items: center;
+}
+
+.acoes-container a {
+  color: black;
+}
+
+.acoes-container:focus {
+  outline: none;
+}
+
+#pesquisa {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
